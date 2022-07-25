@@ -22,6 +22,7 @@ public class BaseTest {
 
     public BaseTest(){
         try {
+
             prop = new Properties();
             FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/"
                     + "qa/util/config/config.properties");
